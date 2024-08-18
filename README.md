@@ -1,3 +1,6 @@
+**Application Architecture**
+![architecture_design](architecture_design.png)
+
 **Docker Commands**
 * Command to run postrges db
   ```shell
@@ -22,5 +25,5 @@
       redis-cli
   ```
   
-  
+**Useful Urls**
 * https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
