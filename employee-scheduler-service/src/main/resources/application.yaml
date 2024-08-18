@@ -1,0 +1,25 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: employee-scheduler-service
+  redis:
+    host: redis
+    port: 6379
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgresql://postgres:5432/pgdb
+    username: pgoel
+    password: 89910331
+    driver-class-nam: org.postgresql.Driver
+  sql:
+    init:
+      mode: always

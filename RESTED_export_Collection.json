@@ -1,0 +1,75 @@
+{
+  "id": "0f60dc9d-6890-4e92-81f4-15f1ec2a2341",
+  "name": "Collection",
+  "requests": [
+    {
+      "id": "180da6f0-2f78-47f3-97c9-e09d4c8b59bf",
+      "collectionId": "0f60dc9d-6890-4e92-81f4-15f1ec2a2341",
+      "method": "GET",
+      "url": "http://localhost:8084/api/v1/employees/search?firstname=pg",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "firstName",
+          "value": "pqrs",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "lastName",
+          "value": "letter",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "bcb264e6-3efe-4153-902b-7dc221b83ffb",
+      "collectionId": "0f60dc9d-6890-4e92-81f4-15f1ec2a2341",
+      "method": "POST",
+      "url": "http://localhost:8082/api/v1/employees/save",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "firstName",
+          "value": "pg",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "lastName",
+          "value": "letter",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "e4e6ec29-3488-4656-9373-85fd85983ff1",
+      "collectionId": "0f60dc9d-6890-4e92-81f4-15f1ec2a2341",
+      "method": "POST",
+      "url": "http://localhost:8082/api/v1/employees/save",
+      "headers": "Content-Type: application/json\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "firstName",
+          "value": "vcx",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "lastName",
+          "value": "letter",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    }
+  ]
+}
