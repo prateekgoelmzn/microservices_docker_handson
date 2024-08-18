@@ -1,6 +1,15 @@
 **Application Architecture**
 ![architecture_design](architecture_design.png)
 
+**Instructions to run application**
+* docker and docker-compose must installed in the system.
+* Download this repository
+* Go to the downloaded repository directory inside your system
+* Use the below command to start the application
+  ```shell
+    docker-compose up
+  ``` 
+
 **Docker Commands**
 * Command to run postrges db
   ```shell
